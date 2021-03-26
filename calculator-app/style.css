@@ -2,3 +2,54 @@
   margin: 0;
   padding: 0;
 }
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+body {
+  font-family: Poppins;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222327;
+  height: 100vh;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #313236;
+  width: 60px;
+  height: 60px;
+  margin: 20px 10px;
+  font-size: 20px;
+  border-radius: 100%;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.btn:hover {
+  transition: all ease 0.3s;
+  font-size: 25px;
+}
+.btnPlus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to left, #fd0c98, #f56438);
+  height: 60px;
+  margin: 20px 10px;
+  width: 120px;
+  border-radius: 10%;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all ease 0.3s;
+}
+.btnPlus:hover {
+  transition: all ease 0.3s;
+  font-size: 25px;
+}
