@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background-color: coral;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.btns {
+  display: flex;
+  align-items: center;
+}
+.btn1,
+.btn2 {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  outline: none;
+  border: none;
+  margin: 20px;
+  color: coral;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.btn1:hover,
+.btn2:hover {
+  background-color: rgb(223, 65, 7);
+  color: #fff;
+  transition: all ease 0.3s;
+}
