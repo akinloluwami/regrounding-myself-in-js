@@ -2,3 +2,32 @@
   margin: 0;
   padding: 0;
 }
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222327;
+  height: 100vh;
+  color: #fff;
+  flex-direction: column;
+  font-family: Poppins;
+}
+h1 {
+  font-weight: 400;
+  font-size: 50px;
+  padding: 50px 0;
+}
+.buttons button {
+  width: 100px;
+  height: 40px;
+  background-color: #171718;
+  color: #fff;
+  outline: none;
+  border: none;
+  margin: 0 10px;
+  font-weight: 200;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 7px;
+}
